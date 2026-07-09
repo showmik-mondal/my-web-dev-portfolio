@@ -98,3 +98,48 @@ ul li a{
 .hero-left-btn-parent{
     margin-top: 30px;
 }
+
+/* About me Container */
+.about-me-container{
+    background-color: #fff8f3;
+    max-width: 1140px;
+    height: 550px;
+    margin: 130px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about-me-text h3 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+}
+
+.about-me-text p{
+    font-size: 17px;
+    color: ##757575;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.about-me-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.about-me-info-label{
+    font-size: 20px;
+    color: #757575;
+}
+
+.about-me-info-value{
+    font-size: 17px;
+    color: #474747;
+    font-weight: bold;
+}
