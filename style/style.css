@@ -1,25 +1,46 @@
+/* Reset Styles */
+
 *{
     margin:0;
     padding:0;
     font-family: "Open Sans", sans-serif;
 }
 
+img{
+    max-width: 100%;
+}
 /* Common Styles */
 .common-btn{
     background-color: #FD6E0A;
     padding: 10px 20px;
-    border-radius: 15px;
+    border-radius: 5px;
     font-weight: bold;
     font-size: 22px;
     color: white;
     border: none;
+    cursor: pointer;
 }
 
+.outline-btn{
+    background-color: white;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Navbar Styles */
 nav{
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
     padding: 10px 0;
 }
 .logo{
@@ -32,7 +53,7 @@ nav{
 nav ul{
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    gap: 15px;
     list-style: none;
     align-items: center;
 }
@@ -40,4 +61,40 @@ nav ul{
 ul li a{
     text-decoration: none;
     color: #474747;
+    
+}
+
+/* Navbar Styles End */
+
+/* Hero Section Style */
+.hero-parent-root{
+    background-color: #fff8f3;
+}
+
+.hero-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hi-iam{
+    font-size: 45px;
+    font-weight:  400;
+    color: #474747;
+}
+.hero-left h2{
+    font-weight: bold;
+    font-size: 85px;
+    color: #181818;
+}
+
+.hero-description{
+    font-size: 17px;
+    color: #474747;
+    margin-top: 20px;
+    
+}
+
+.hero-left-btn-parent{
+    margin-top: 30px;
 }
